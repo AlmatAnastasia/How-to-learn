@@ -355,29 +355,9 @@
   z-index: 3;
 }
 
-/* блок section-title */
-.section-title_theme_dark {
-  margin: 0 auto;
-  width: 60%;
-
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
 /* блок section-title, модификатор theme в значении dark */
 .section-title_theme_dark {
   z-index: 2;
-}
-
-/* блок section-subtitle */
-.section-subtitle {
-  margin: 20px auto 0;
-  width: 60%;
-
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 /* блок section-subtitle, модификатор theme в значении dark */
