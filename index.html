@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
   <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
       <!-- 1.4 Элемент link -->
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a class="header__link" href="#description">Узнать &#8594;</a>
+        <a class="header__link link" href="#description">Узнать &#8594;</a>
       </p>
       <!-- 1.5 Элемент main-illustration -->
       <img class="header__main-illustration" src="./images/two_again.png" alt="Фрагмент картины &#34;Снова двойка&#34;">
@@ -64,18 +64,114 @@
 
       </section>
 
-      <!-- Блок 3 digits -->
+      <!-- Блок 3 techniques -->
+      <section class="techniques">
+        <!-- 3.1 Блок section-title -->
+        <h2 class="section-title">Техники обучения</h2>
+        <!-- 3.2 Блок section-subtitle -->
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <!-- 3.3 Блок cards -->
+        <ul class="cards">
+          <!-- 3.4 Элемент item -->
+          <!-- 3.5 Элемент image -->
+          <!-- 3.6 Элемент title -->
+          <!-- 3.7 Элемент description -->
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-attention.png"
+              alt="Иллюстрирование первой техники обучения - &#34;Внимание&#34;">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
+              мышление.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-recall.png"
+              alt="Иллюстрирование второй техники обучения - &#34;Воспоминание&#34;">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-interliving.png"
+              alt="Иллюстрирование третьей техники обучения - &#34;Чередование&#34;">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-question.png"
+              alt="Иллюстрирование четвертой техники обучения - &#34;Вопрос&#34;">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
+              волнует.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-competence.png"
+              alt="Иллюстрирование пятой техники обучения - &#34;Компетенция&#34;">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
+              владеете новой темой.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Блок 4 video -->
+      <section class="video">
+        <!-- 4.1 Блок section-title -->
+        <h2 class="section-title">Видео нa TED</h2>
+        <!-- 4.2 Блок section-subtitle -->
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <!-- 4.3 Блок video, элемент iframes -->
+        <div class="video__iframes">
+          <!-- 4.4 Блок video, элемент iframe -->
+          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"></iframe>
+          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe"></iframe>
+        </div>
+      </section>
+
+      <!-- Блок 5 oakley -->
+      <section class="oakley">
+        <!-- 5.1 Блок two-columns -->
+        <div class="two-columns">
+          <!-- 5.2 Элемент brief -->
+          <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+          <!-- 5.3 Элемент main-text -->
+          <div class="two-columns__main-text">
+            <!-- 5.4 Элемент paragraph -->
+            <p class="two-columns__paragraph">
+              С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не
+              самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в
+              командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой
+              подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо
+              глубже, чем у тех, кому всё ясно с первого взгляда.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Блок 6 feynman -->
+      <!-- 6.4 Элемент image -->
+      <section class="feynman">
+
+        <!-- 6.1 Элемент title -->
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <!-- 6.2 Элемент subtitle -->
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <!-- 6.3 Элемент link -->
+        <a class="feynman__link link" href="#kaufman">Подробнее &#8594;</a>
+
+      </section>
+
+      <!-- Блок 7 digits -->
       <section class="digits">
 
-        <!-- 3.1 Блок section-title -->
+        <!-- 7.1 Блок section-title -->
         <h2 class="section-title">Цифры и факты</h2>
-        <!-- 3.2 Блок section-subtitle -->
+        <!-- 7.2 Блок section-subtitle -->
         <p class="section-subtitle">Про учёбу и мозг</p>
-        <!-- 3.3 Блок table -->
+        <!-- 7.3 Блок table -->
         <ul class="table">
-          <!-- 3.4 Элемент cell -->
-          <!-- 3.5 Элемент heading -->
-          <!-- 3.6 Элемент text -->
+          <!-- 7.4 Элемент cell -->
+          <!-- 7.5 Элемент heading -->
+          <!-- 7.6 Элемент text -->
           <li class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
             <p class="table__text">Число нейронов в мозге человека</p>
@@ -87,7 +183,7 @@
             </p>
             <p class="table__text">
               Всемирный Банк, 2017</p>
-            </li>
+          </li>
           <li class="table__cell">
             <h3 class="table__heading">1000 терабайт</h3>
             <p class="table__text">Объём памяти человека</p>
@@ -123,31 +219,47 @@
 
       </section>
 
-      <!-- Блок 4 feynman -->
-      <!-- 4.4 Элемент image -->
-      <section class="feynman">
-
-        <!-- 4.1 Элемент title -->
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <!-- 4.2 Элемент subtitle -->
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <!-- 4.3 Элемент link -->
-        <a class="feynman__link" href="#kaufman">Подробнее &#8594;</a>
-        
+      <!-- Блок 8 khan -->
+      <section class="khan">
+        <!-- 8.1 Блок khan, элемент container -->
+        <div class="khan__container">
+          <!-- 8.2 Блок khan, элемент author -->
+          <h3 class="khan__author">Салман Хан</h3>
+          <!-- 8.3 Блок khan, элемент title -->
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <!-- 8.4 Блок khan, элемент quote -->
+          <p class="khan__quote">
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
+            школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
+            знания, которые приносят успех в школе, карьере и жизни.
+          </p>
+          <!-- 8.5 Блок khan, элемент quote-author -->
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <!-- 8.6 Блок khan, элемент quote-author-subline -->
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <!-- 8.7 Блок khan, элемент book-container -->
+          <div class="khan__book-container">
+            <!-- 8.8 Блок khan, элемент book-pic -->
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги &#34;Весь мир — школа&#34;">
+            <!-- 8.9 Блок khan, элемент buy-link -->
+            <a class="khan__buy-link link" href="#">Купить книгу &#8594;</a>
+          </div>
+        </div>
       </section>
 
-      <!-- Блок 5 kaufman -->
+
+      <!-- Блок 9 kaufman -->
       <section class="kaufman" id="kaufman">
 
-        <!-- 5.1 Блок section-title, модификатор theme в значении dark -->
+        <!-- 9.1 Блок section-title, модификатор theme в значении dark -->
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <!-- 5.2 Блок section-subtitle, модификатор theme в значении dark-->
+        <!-- 9.2 Блок section-subtitle, модификатор theme в значении dark-->
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-        <!-- 5.3 Блок table, модификатор theme в значении dark -->
+        <!-- 9.3 Блок table, модификатор theme в значении dark -->
         <ul class="table table_theme_dark">
-          <!-- 5.4 Блок table, элемент cell, модификатор theme в значении dark -->
-          <!-- 5.5 Блок table, элемент heading, модификатор theme в значении dark -->
-          <!-- 5.6 Блок table, элемент text, модификатор theme в значении dark -->
+          <!-- 9.4 Блок table, элемент cell, модификатор theme в значении dark -->
+          <!-- 9.5 Блок table, элемент heading, модификатор theme в значении dark -->
+          <!-- 9.6 Блок table, элемент text, модификатор theme в значении dark -->
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
             <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -183,82 +295,119 @@
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">9</h3>
-            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">10</h3>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <!-- 5.7 Блок kaufman, элемент triangle -->
+        <!-- 9.7 Блок kaufman, элемент triangle -->
         <div class="kaufman__triangle"></div>
 
       </section>
     </main>
 
-    <!-- Блок 6 footer -->
+    <!-- Блок 10 resources -->
+    <div class="resources">
+      <!-- 10.1 Блок section-title -->
+      <h2 class="section-title">Полезные ресурсы</h2>
+      <!-- 10.2 Блок section-subtitle -->
+      <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+      <!-- 10.3 Блок resources, элемент logo-zone -->
+      <ul class="resources__logo-zone">
+        <!-- 10.4 Блок resources, элемент link -->
+        <!-- 10.5 Блок resources, элемент logo -->
+        <li>
+          <a class="resources__link link" href="#">
+            <img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип &#34;Arzamas&#34;">
+          </a>
+        </li>
+        <li>
+          <a class="resources__link link" href="#">
+            <img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип &#34;N1&#34;">
+          </a>
+        </li>
+        <li>
+          <a class="resources__link link" href="#">
+            <img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип &#34;Strelka&#34;">
+          </a>
+        </li>
+        <li>
+          <a class="resources__link link" href="#">
+            <img class="resources__logo" src="./images/resources-polka.svg" alt="Логотип &#34;Polka&#34;">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Блок 11 footer -->
     <footer class="footer">
 
-      <!-- 6.1 Блок footer, элемент columns -->
+      <!-- 11.1 Блок footer, элемент columns -->
       <div class="footer__columns">
 
-        <!-- 6.2 Блок footer, элемент column, модификатор content со значением copyright -->
+        <!-- 11.2 Блок footer, элемент column, модификатор content со значением copyright -->
         <div class="footer__column footer__column_content_copyright">
-          <!-- 6.5 Блок logo, модификатор place со значением footer -->
+          <!-- 11.5 Блок logo, модификатор place со значением footer -->
           <img class="logo logo_place_footer" src="./images/logo_place_footer.svg"
             alt="Логотип &#34;Яндекс Практикум&#34;">
-          <!-- 6.6 Блок footer, элемент author -->
+          <!-- 11.6 Блок footer, элемент author -->
           <p class="footer__author">&copy;Алматаева Анастасия</p>
         </div>
 
-        <!-- 6.3 Блок footer, элемент column, модификатор content со значением info -->
+        <!-- 11.3 Блок footer, элемент column, модификатор content со значением info -->
         <nav class="footer__column footer__column_content_info">
-          <!-- 6.7 Блок footer, элемент column-heading -->
+          <!-- 11.7 Блок footer, элемент column-heading -->
           <h4 class="footer__column-heading">О Практикуме</h4>
-          <!-- 6.8 Блок footer, элемент column-links -->
-          <!-- 6.10 Блок footer, элемент column-link -->
+          <!-- 11.8 Блок footer, элемент column-links -->
+          <!-- 11.10 Блок footer, элемент column-link -->
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link" href="#">Главная</a>
+              <a class="footer__column-link link" href="#">Главная</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">Концепция</a>
+              <a class="footer__column-link link" href="#">Концепция</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">Наставники</a>
+              <a class="footer__column-link link" href="#">Наставники</a>
             </li>
           </ul>
-          
+
         </nav>
 
-        <!-- 6.4 Блок footer, элемент column, модификатор content со значением social -->
+        <!-- 11.4 Блок footer, элемент column, модификатор content со значением social -->
         <nav class="footer__column footer__column_content_social">
-          <!-- 6.7 Блок footer, элемент column-heading -->
+          <!-- 11.7 Блок footer, элемент column-heading -->
           <h4 class="footer__column-heading">Соцсети</h4>
-          <!-- 6.8 Блок footer, элемент column-links -->
-          <!-- 6.9 Блок footer, элемент social-icon -->
-          <!-- 6.10 Блок footer, элемент column-link -->
+          <!-- 11.8 Блок footer, элемент column-links -->
+          <!-- 11.9 Блок footer, элемент social-icon -->
+          <!-- 11.10 Блок footer, элемент column-link -->
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип &#34;Facebook&#34;">
+              <a class="footer__column-link link" href="#">
+                <img class="footer__social-icon" src="./images/facebook_color_white.svg"
+                  alt="Логотип &#34;Facebook&#34;">
                 Facebook
               </a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link" href="#">
                 <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Значок &#34;ВКонтакте&#34;">
                 ВКонтакте
               </a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Значок &#34;Instagram&#34;">
+              <a class="footer__column-link link" href="#">
+                <img class="footer__social-icon" src="./images/instagram_color_white.svg"
+                  alt="Значок &#34;Instagram&#34;">
                 Instagram
               </a>
             </li>
           </ul>
-          
+
         </nav>
 
       </div>

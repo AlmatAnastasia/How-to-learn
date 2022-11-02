@@ -1,0 +1,14 @@
+/* блок header, элемент main-illustration */
+/* 
+ * ...
+ * изменение содержимого (<img> или <video>) в соответствии с контейнером 
+ */
+.header__main-illustration {
+    height: 608px;
+    width: 765px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    object-fit: cover;
+}

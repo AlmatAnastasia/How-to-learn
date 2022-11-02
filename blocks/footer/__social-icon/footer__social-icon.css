@@ -1,0 +1,6 @@
+/* блок footer, элемент social-icon */
+.footer__social-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}

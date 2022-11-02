@@ -1,0 +1,4 @@
+/* блок header, элемент link */
+.header__link {
+    z-index: 2;
+}

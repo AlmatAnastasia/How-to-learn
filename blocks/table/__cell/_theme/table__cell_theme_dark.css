@@ -1,0 +1,6 @@
+/* блок table, элемент cell, модификатор theme в значении dark */
+.table__cell_theme_dark {
+    margin-top: 80px;
+    width: 200px;
+    color: #fff;
+}

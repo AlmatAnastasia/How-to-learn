@@ -1,0 +1,9 @@
+/* блок footer, элемент column */
+/* 
+ * ...
+ * размещения элементов flex
+ */
+.footer__column {
+    display: flex;
+    flex-direction: column;
+}

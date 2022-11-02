@@ -1,0 +1,12 @@
+/* блок two-columns */
+/* 
+ * выровнять блок по центру горизонтали
+ * ...
+ * пространство между элементами содержимого вдоль главной оси контейнера flex
+ */
+.two-columns {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}

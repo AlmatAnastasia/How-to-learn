@@ -1,0 +1,9 @@
+/** Секция description **/
+/* 
+ * внутренний отступ сверху 
+ * белый цвет (фон)
+ */
+.description {
+    padding-top: 100px;
+    background-color: #fff;
+}

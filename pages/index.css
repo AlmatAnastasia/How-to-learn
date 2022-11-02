@@ -1,0 +1,158 @@
+/* Подключение стилей для всех блоков */
+
+/* подключаем код сторонних разработчиков - normalize.css */
+@import url("../vendor/normalize.css");
+
+/* подключаем стили блока page */
+@import url("../blocks/page/page.css");
+
+/* подключаем кейфрейм rotation */
+@import url("../blocks/rotation/rotation.css");
+
+/* подключаем стили блока link */
+@import url("../blocks/link/link.css");
+
+/* подключаем стили блока header */
+@import url("../blocks/header/header.css");
+/* после блока header подключаем стили элемента title */
+@import url("../blocks/header/__title/header__title.css");
+/* после блока header подключаем стили элемента subtitle */
+@import url("../blocks/header/__subtitle/header__subtitle.css");
+/* после блока header подключаем стили элемента link */
+@import url("../blocks/header/__link/header__link.css");
+/* после блока header подключаем стили элемента main-illustration */
+@import url("../blocks/header/__main-illustration/header__main-illustration.css");
+/* после блока header подключаем стили элемента square-pic */
+@import url("../blocks/header/square-pic/header__square-pic.css");
+
+/* подключаем стили блока logo */
+@import url("../blocks/logo/logo.css");
+/* импорт модификатора logo_place_header */
+@import url("../blocks/logo/_place/logo_place_header.css");
+
+/* подключаем стили блока description */
+@import url("../blocks/description/description.css");
+
+/* подключаем стили блока two-columns */
+@import url("../blocks/two-columns/two-columns.css");
+/* после блока two-columns подключаем стили элемента brief */
+@import url("../blocks/two-columns/__brief/two-columns__brief.css");
+/* после блока two-columns подключаем стили элемента main-text */
+@import url("../blocks/two-columns/__main-text/two-columns__main-text.css");
+/* после блока two-columns подключаем стили элемента paragraph */
+@import url("../blocks/two-columns/__paragraph/two-columns__paragraph.css");
+/* после блока two-columns подключаем стили элемента span-accent */
+@import url("../blocks/two-columns/__span-accent/two-columns__span-accent.css");
+
+/* подключаем стили блока techniques */
+@import url("../blocks/techniques/techniques.css");
+
+/* подключаем стили блока section-title */
+@import url("../blocks/section-title/section-title.css");
+/* импорт модификатора section-title_theme_dark */
+@import url("../blocks/section-title/_theme/section-title_theme_dark.css");
+
+/* подключаем стили блока section-subtitle */
+@import url("../blocks/section-subtitle/section-subtitle.css");
+/* импорт модификатора section-subtitle_theme_dark */
+@import url("../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css");
+
+/* подключаем стили блока cards */
+@import url("../blocks/cards/cards.css");
+/* после блока cards подключаем стили элемента item */
+@import url("../blocks/cards/__item/cards__item.css");
+/* после блока cards подключаем стили элемента image */
+@import url("../blocks/cards/__image/cards__image.css");
+/* после блока cards подключаем стили элемента title */
+@import url("../blocks/cards/__title/cards__title.css");
+/* после блока cards подключаем стили элемента description */
+@import url("../blocks/cards/__description/cards__description.css");
+
+/* подключаем стили блока video */
+@import url("../blocks/video/video.css");
+/* после блока video подключаем стили элемента iframes */
+@import url("../blocks/video/__iframes/video__iframes.css");
+/* после блока video подключаем стили элемента iframe */
+@import url("../blocks/video/__iframe/video__iframe.css");
+
+/* подключаем стили блока oakley */
+@import url("../blocks/oakley/oakley.css");
+
+/* подключаем стили блока feynman */
+@import url("../blocks/feynman/feynman.css");
+/* после блока feynman подключаем стили элемента title */
+@import url("../blocks/feynman/__title/feynman__title.css");
+/* после блока feynman подключаем стили элемента subtitle */
+@import url("../blocks/feynman/__subtitle/feynman__subtitle.css");
+/* после блока feynman подключаем стили элемента link */
+@import url("../blocks/feynman/__link/feynman__link.css");
+
+/* подключаем стили блока digits */
+@import url("../blocks/digits/digits.css");
+
+/* подключаем стили блока table */
+@import url("../blocks/table/table.css");
+/* импорт модификатора table_theme_dark */
+@import url("../blocks/table/_theme/table_theme_dark.css");
+/* после блока table подключаем стили элемента cell */
+@import url("../blocks/table/__cell/table__cell.css");
+/* импорт модификатора table__cell_theme_dark */
+@import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
+/* после блока table подключаем стили элемента heading */
+@import url("../blocks/table/__heading/table__heading.css");
+/* после блока table подключаем стили элемента text */
+@import url("../blocks/table/__text/table__text.css");
+
+/* подключаем стили блока khan */
+@import url("../blocks/khan/khan.css");
+/* после блока khan подключаем стили элемента container */
+@import url("../blocks/khan/__container/khan__container.css");
+/* после блока khan подключаем стили элемента author */
+@import url("../blocks/khan/__author/khan__author.css");
+/* после блока khan подключаем стили элемента title */
+@import url("../blocks/khan/__title/khan__title.css");
+/* после блока khan подключаем стили элемента quote */
+@import url("../blocks/khan/__quote/khan__quote.css");
+/* после блока khan подключаем стили элемента quote-author */
+@import url("../blocks/khan/__quote-author/khan__quote-author.css");
+/* после блока khan подключаем стили элемента quote-author-subline */
+@import url("../blocks/khan/__quote-author-subline/khan__quote-author-subline.css");
+/* после блока khan подключаем стили элемента book-container */
+@import url("../blocks/khan/__book-container/khan__book-container.css");
+/* после блока khan подключаем стили элемента book-pic */
+@import url("../blocks/khan/__book-pic/khan__book-pic.css");
+/* после блока khan подключаем стили элемента buy-link*/
+@import url("../blocks/khan/__buy-link/khan__buy-link.css");
+
+/* подключаем стили блока kaufman */
+@import url("../blocks/kaufman/kaufman.css");
+/* после блока kaufman подключаем стили элемента triangle */
+@import url("../blocks/kaufman/__triangle/kaufman__triangle.css");
+
+/* подключаем стили блока resources */
+@import url("../blocks/resources/resources.css");
+/* после блока resources подключаем стили элемента logo-zone */
+@import url("../blocks/resources/__logo-zone/resources__logo-zone.css");
+/* после блока resources подключаем стили элемента link */
+@import url("../blocks/resources/__link/resources__link.css");
+/* после блока resources подключаем стили элемента logo */
+@import url("../blocks/resources/__logo/resources__logo.css");
+
+/* подключаем стили блока footer */
+@import url("../blocks/footer/footer.css");
+/* после блока footer подключаем стили элемента columns */
+@import url("../blocks/footer/__columns/footer__columns.css");
+/* после блока footer подключаем стили элемента column */
+@import url("../blocks/footer/__column/footer__column.css");
+/* импорт модификатора footer__column_content_copyright */
+@import url("../blocks/footer/__column/_content/footer__column_content_copyright.css");
+/* после блока footer подключаем стили элемента author */
+@import url("../blocks/footer/__author/footer__author.css");
+/* после блока footer подключаем стили элемента column-heading */
+@import url("../blocks/footer/__column-heading/footer__column-heading.css");
+/* после блока footer подключаем стили элемента column-links */
+@import url("../blocks/footer/__column-links/footer__column-links.css");
+/* после блока footer подключаем стили элемента social-icon */
+@import url("../blocks/footer/__social-icon/footer__social-icon.css");
+/* после блока footer подключаем стили элемента column-link */
+@import url("../blocks/footer/__column-link/footer__column-link.css");

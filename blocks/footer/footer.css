@@ -1,0 +1,9 @@
+/** Подвал сайта footer **/
+.footer {
+    padding: 60px 0 40px;
+    min-height: 350px;
+    background-color: #1f1f1f;
+    color: #fff;
+    display: flex;
+    box-sizing: border-box;
+}

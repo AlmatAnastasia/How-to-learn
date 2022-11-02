@@ -1,0 +1,10 @@
+/* блок video, элемент iframe */
+/* 
+ * размеры видео
+ * убрать нижний отсуп
+ */
+.video__iframe {
+    width: 515px;
+    height: 316px;
+    vertical-align: bottom;
+}

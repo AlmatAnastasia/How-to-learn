@@ -1,0 +1,17 @@
+/* блок header, элемент title */
+/* 
+ * внешний отступ слева
+ * ...
+ * высота строки (межстрочный интервал) 
+ * размер шрифта
+ * начертание шрифта
+ */
+.header__title {
+    margin: 0 0 0 64px;
+    max-width: 730px;
+    z-index: 3;
+
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: 600;
+}

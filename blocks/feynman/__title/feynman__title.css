@@ -1,0 +1,11 @@
+/* блок feynman, элемент title */
+.feynman__title {
+    margin: 0 auto;
+    max-width: 648px;
+    text-align: center;
+    z-index: 3;
+
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: 600;
+}

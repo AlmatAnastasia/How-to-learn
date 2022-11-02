@@ -1,0 +1,4 @@
+/* блок table, модификатор theme в значении dark */
+.table_theme_dark {
+    z-index: 0;
+}

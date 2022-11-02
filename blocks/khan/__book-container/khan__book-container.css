@@ -1,0 +1,6 @@
+/* блок khan, элемент book-container */
+.khan__book-container {
+    margin: 0;
+    margin-top: 68px;
+    display: flex;
+}

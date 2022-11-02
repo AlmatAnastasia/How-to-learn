@@ -1,0 +1,9 @@
+/* блок footer, элемент column, модификатор content со значением copyright */
+/* 
+ * начальный основной размер элемента flex 
+ * ...
+ */
+.footer__column_content_copyright {
+    flex-basis: 711px;
+    justify-content: space-between;
+}

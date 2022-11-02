@@ -1,0 +1,11 @@
+/* блок feynman, элемент subtitle */
+.feynman__subtitle {
+    margin: 70px auto 0;
+    max-width: 648px;
+    text-align: center;
+    z-index: 2;
+
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}

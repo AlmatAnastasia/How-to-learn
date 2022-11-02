@@ -1,0 +1,4 @@
+/* блок section-title, модификатор theme в значении dark */
+.section-title_theme_dark {
+    z-index: 2;
+}
