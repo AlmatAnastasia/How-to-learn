@@ -23,7 +23,7 @@
 /* после блока header подключаем стили элемента main-illustration */
 @import url("../blocks/header/__main-illustration/header__main-illustration.css");
 /* после блока header подключаем стили элемента square-pic */
-@import url("../blocks/header/square-pic/header__square-pic.css");
+@import url("../blocks/header/__square-pic/header__square-pic.css");
 
 /* подключаем стили блока logo */
 @import url("../blocks/logo/logo.css");

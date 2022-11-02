@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -27,17 +26,18 @@
       <!-- 1.5 Элемент main-illustration -->
       <img class="header__main-illustration" src="./images/two_again.png" alt="Фрагмент картины &#34;Снова двойка&#34;">
       <!-- 1.6 Элемент square-pic -->
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
 
     </header>
 
     <main class="content">
 
       <!-- Блок 2 description -->
-      <section class="description" id="description">
+      <section class="description" id="description"
+        aria-label="Секция со статьей &#34;Главные проблемы в обучении&#34;">
 
         <!-- 2.1 Блок two-columns -->
-        <div class="two-columns">
+        <article class="two-columns">
           <!-- 2.2 Элемент brief -->
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <!-- 2.3 Элемент main-text -->
@@ -60,7 +60,7 @@
               захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </div>
+        </article>
 
       </section>
 
@@ -120,17 +120,21 @@
         <!-- 4.2 Блок section-subtitle -->
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <!-- 4.3 Блок video, элемент iframes -->
-        <div class="video__iframes">
+        <ul class="video__iframes">
           <!-- 4.4 Блок video, элемент iframe -->
-          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"></iframe>
-          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe"></iframe>
-        </div>
+          <li>
+            <iframe src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"></iframe>
+          </li>
+          <li>
+            <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe"></iframe>
+          </li>
+        </ul>
       </section>
 
       <!-- Блок 5 oakley -->
-      <section class="oakley">
+      <section class="oakley" aria-label="Секция со статьей &#34;История Барбары Оакли&#34;">
         <!-- 5.1 Блок two-columns -->
-        <div class="two-columns">
+        <article class="two-columns">
           <!-- 5.2 Элемент brief -->
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <!-- 5.3 Элемент main-text -->
@@ -144,7 +148,7 @@
               глубже, чем у тех, кому всё ясно с первого взгляда.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <!-- Блок 6 feynman -->
@@ -224,15 +228,15 @@
         <!-- 8.1 Блок khan, элемент container -->
         <div class="khan__container">
           <!-- 8.2 Блок khan, элемент author -->
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <!-- 8.3 Блок khan, элемент title -->
           <h2 class="khan__title">Весь мир — школа</h2>
           <!-- 8.4 Блок khan, элемент quote -->
-          <p class="khan__quote">
+          <blockquote class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
             школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
             знания, которые приносят успех в школе, карьере и жизни.
-          </p>
+          </blockquote>
           <!-- 8.5 Блок khan, элемент quote-author -->
           <p class="khan__quote-author">Джордж Лукас</p>
           <!-- 8.6 Блок khan, элемент quote-author-subline -->
@@ -304,44 +308,45 @@
           </li>
         </ul>
         <!-- 9.7 Блок kaufman, элемент triangle -->
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
 
       </section>
+
+
+      <!-- Блок 10 resources -->
+      <div class="resources">
+        <!-- 10.1 Блок section-title -->
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <!-- 10.2 Блок section-subtitle -->
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <!-- 10.3 Блок resources, элемент logo-zone -->
+        <ul class="resources__logo-zone">
+          <!-- 10.4 Блок resources, элемент link -->
+          <!-- 10.5 Блок resources, элемент logo -->
+          <li>
+            <a class="resources__link link" href="#">
+              <img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип &#34;Arzamas&#34;">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link link" href="#">
+              <img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип &#34;N1&#34;">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link link" href="#">
+              <img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип &#34;Strelka&#34;">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link link" href="#">
+              <img class="resources__logo" src="./images/resources-polka.svg" alt="Логотип &#34;Polka&#34;">
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </main>
-
-    <!-- Блок 10 resources -->
-    <div class="resources">
-      <!-- 10.1 Блок section-title -->
-      <h2 class="section-title">Полезные ресурсы</h2>
-      <!-- 10.2 Блок section-subtitle -->
-      <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <!-- 10.3 Блок resources, элемент logo-zone -->
-      <ul class="resources__logo-zone">
-        <!-- 10.4 Блок resources, элемент link -->
-        <!-- 10.5 Блок resources, элемент logo -->
-        <li>
-          <a class="resources__link link" href="#">
-            <img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип &#34;Arzamas&#34;">
-          </a>
-        </li>
-        <li>
-          <a class="resources__link link" href="#">
-            <img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип &#34;N1&#34;">
-          </a>
-        </li>
-        <li>
-          <a class="resources__link link" href="#">
-            <img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип &#34;Strelka&#34;">
-          </a>
-        </li>
-        <li>
-          <a class="resources__link link" href="#">
-            <img class="resources__logo" src="./images/resources-polka.svg" alt="Логотип &#34;Polka&#34;">
-          </a>
-        </li>
-      </ul>
-    </div>
-
 
     <!-- Блок 11 footer -->
     <footer class="footer">

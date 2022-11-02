@@ -9,5 +9,6 @@
     width: 1050px;
     display: flex;
     justify-content: space-between;
-    transform: translate(0, 40px); 
+    transform: translate(0, 40px);
+    list-style: none;
 }

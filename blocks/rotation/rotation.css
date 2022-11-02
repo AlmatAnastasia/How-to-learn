@@ -14,3 +14,13 @@
         transform: rotate(360deg);
     }
 }
+
+/*
+ * запуск анимации rotation
+ * анимация:
+ * • должна быть линейной во времени
+ * • повторяться бесконечно
+ */
+.rotation {
+    animation: rotation 20s linear infinite;
+}
